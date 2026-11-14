@@ -1,0 +1,5 @@
+{
+  "name": "claude-code-themes",
+  "owner": { "name": "cristiand395" },
+  "plugins": [{ "name": "temas", "source": "./" }]
+}
