@@ -1,7 +1,7 @@
 {
   "name": "temas",
-  "version": "0.1.0",
-  "description": "Several editor-inspired looks (Synthwave '84, Dracula, Tokyo Night, Gruvbox, One Dark Pro Night Flat, Jellyfish) switched with /tema.",
+  "version": "0.2.0",
+  "description": "Several editor-inspired looks (Synthwave '84, Dracula, Tokyo Night, Gruvbox, One Dark Pro Night Flat, Jellyfish, Claude) switched with /tema.",
   "author": { "name": "cristiand395" },
   "license": "MIT"
 }

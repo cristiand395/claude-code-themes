@@ -134,6 +134,42 @@ export const THEMES: Record<string, Theme> = {
       git: { added: '#68edc6', removed: '#f88dad', modified: '#5cc9f5', merged: '#da68fb' },
     },
   }),
+  claude: build('Claude', {
+    only: 'dark',
+    // Claude's terracotta orange, pinned as the exact accent fill. In the desktop sidebar the
+    // warning fill paints the dot of a chat waiting on an answer, so warning stays yellow.
+    roles: {
+      accent: { seed: '#d97757', fillShade: 400, stops: { 400: '#d97757' } },
+      danger: '#ef4f4f',
+      success: '#8bd49b',
+      warning: '#f2c94c',
+      pro: '#a99bf0',
+    },
+    dark: {
+      gray: {
+        anchors: {
+          // Pure black page for OLED; the others only a step up so cards still read.
+          'surface-0': '#000000',
+          'surface-1': '#050505',
+          'surface-2': '#0a0a09',
+          'surface-3': '#0f0f0e',
+          'text-primary': '#f5f3ec',
+          'text-secondary': '#cfccc2',
+          // The sidebar's busy and finished dots both follow text-muted, so it carries Claude orange.
+          'text-muted': '#d97757',
+        },
+      },
+      git: {
+        added: '#8bd49b',
+        removed: '#ef5a5a',
+        modified: '#f2c94c',
+        merged: '#e89478',
+        closed: '#f47c7c',
+        conflicting: '#f2a678',
+        draft: '#b3b0a7',
+      },
+    },
+  }),
 }
 
 export const DEFAULT_THEME = 'synthwave'

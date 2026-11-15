@@ -10,6 +10,7 @@ Un mod de Claude Code que añade varios temas de color inspirados en temas popul
 | `gruvbox` | Gruvbox | claro y oscuro |
 | `onedark` | One Dark Pro Night Flat | oscuro |
 | `jellyfish` | Jellyfish | oscuro |
+| `claude` | Claude: fondo negro puro para OLED y acento naranja de Claude | oscuro |
 
 ## Instalación
 
